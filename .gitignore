@@ -1,4 +1,8 @@
 *.class
+target/
+.idea/
+IPADSaller.*
+.gitignore
 
 # Package Files #
 *.jar
