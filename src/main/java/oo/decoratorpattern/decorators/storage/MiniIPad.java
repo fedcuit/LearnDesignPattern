@@ -1,8 +1,7 @@
-package oo.decorators.storage;
+package oo.decoratorpattern.decorators.storage;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class MiniIPad extends CustomizeDecorator {
     public MiniIPad(IPad iPad) {

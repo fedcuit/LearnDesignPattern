@@ -1,4 +1,4 @@
-package oo.ipad;
+package oo.decoratorpattern.ipad;
 
 public class ConcreteIPad implements IPad {
 

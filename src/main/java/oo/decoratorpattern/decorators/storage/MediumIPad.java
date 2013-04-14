@@ -1,8 +1,7 @@
-package oo.decorators.storage;
+package oo.decoratorpattern.decorators.storage;
 
-import oo.decorators.CustomizeDecorator;
-import oo.decorators.color.WhiteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class MediumIPad extends CustomizeDecorator {
 

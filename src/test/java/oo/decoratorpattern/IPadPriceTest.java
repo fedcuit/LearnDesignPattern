@@ -1,10 +1,8 @@
-package oo;
+package oo.decoratorpattern;
 
-import oo.builder.IPadBuilder;
-import oo.decorators.color.WhiteIPad;
-import oo.decorators.storage.MediumIPad;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+
+import oo.decoratorpattern.builder.IPadBuilder;
+import oo.decoratorpattern.ipad.IPad;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

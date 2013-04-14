@@ -1,6 +1,7 @@
-package oo.decorators;
+package oo.decoratorpattern.decorators;
 
-import oo.ipad.IPad;
+
+import oo.decoratorpattern.ipad.IPad;
 
 public abstract class CustomizeDecorator implements IPad {
     protected IPad iPad;

@@ -1,11 +1,7 @@
-package oo.decorators.engrave;
+package oo.decoratorpattern.decorators.engrave;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
-import sun.java2d.loops.CustomComponent;
-
-import java.beans.Customizer;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class NormalEngraveIPad extends CustomizeDecorator {
     public NormalEngraveIPad(IPad iPad) {

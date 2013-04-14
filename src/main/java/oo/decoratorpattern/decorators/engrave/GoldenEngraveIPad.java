@@ -1,7 +1,7 @@
-package oo.decorators.engrave;
+package oo.decoratorpattern.decorators.engrave;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class GoldenEngraveIPad extends CustomizeDecorator {
     public GoldenEngraveIPad(IPad iPad) {

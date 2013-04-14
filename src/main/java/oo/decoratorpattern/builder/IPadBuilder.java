@@ -1,22 +1,22 @@
-package oo.builder;
+package oo.decoratorpattern.builder;
 
-import oo.decorators.color.RedIPad;
-import oo.decorators.color.WhiteIPad;
-import oo.decorators.cover.LeatherCover;
-import oo.decorators.engrave.GoldenEngraveIPad;
-import oo.decorators.engrave.NormalEngraveIPad;
-import oo.decorators.engrave.SilverEngraveIPad;
-import oo.decorators.headset.BluetoothHeadset;
-import oo.decorators.headset.NormalHeadset;
-import oo.decorators.module.ThreeGIPad;
-import oo.decorators.module.ThreeGPlusWifiIPad;
-import oo.decorators.module.WifiIPad;
-import oo.decorators.storage.LargeIPad;
-import oo.decorators.storage.MediumIPad;
-import oo.decorators.storage.MiniIPad;
-import oo.decorators.storage.SmallIPad;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.color.RedIPad;
+import oo.decoratorpattern.decorators.color.WhiteIPad;
+import oo.decoratorpattern.decorators.cover.LeatherCover;
+import oo.decoratorpattern.decorators.engrave.GoldenEngraveIPad;
+import oo.decoratorpattern.decorators.engrave.NormalEngraveIPad;
+import oo.decoratorpattern.decorators.engrave.SilverEngraveIPad;
+import oo.decoratorpattern.decorators.headset.BluetoothHeadset;
+import oo.decoratorpattern.decorators.headset.NormalHeadset;
+import oo.decoratorpattern.decorators.module.ThreeGIPad;
+import oo.decoratorpattern.decorators.module.ThreeGPlusWifiIPad;
+import oo.decoratorpattern.decorators.module.WifiIPad;
+import oo.decoratorpattern.decorators.storage.LargeIPad;
+import oo.decoratorpattern.decorators.storage.MediumIPad;
+import oo.decoratorpattern.decorators.storage.MiniIPad;
+import oo.decoratorpattern.decorators.storage.SmallIPad;
+import oo.decoratorpattern.ipad.ConcreteIPad;
+import oo.decoratorpattern.ipad.IPad;
 
 public class IPadBuilder {
     private IPad iPad;

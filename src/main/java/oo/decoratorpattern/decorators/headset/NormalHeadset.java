@@ -1,8 +1,7 @@
-package oo.decorators.headset;
+package oo.decoratorpattern.decorators.headset;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class NormalHeadset extends CustomizeDecorator {
     public NormalHeadset(IPad iPad) {

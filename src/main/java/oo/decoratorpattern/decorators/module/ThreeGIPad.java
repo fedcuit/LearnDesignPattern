@@ -1,8 +1,7 @@
-package oo.decorators.module;
+package oo.decoratorpattern.decorators.module;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class ThreeGIPad extends CustomizeDecorator {
     public ThreeGIPad(IPad iPad) {

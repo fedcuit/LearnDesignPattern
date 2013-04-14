@@ -1,8 +1,7 @@
-package oo.decorators.color;
+package oo.decoratorpattern.decorators.color;
 
-import oo.decorators.CustomizeDecorator;
-import oo.ipad.ConcreteIPad;
-import oo.ipad.IPad;
+import oo.decoratorpattern.decorators.CustomizeDecorator;
+import oo.decoratorpattern.ipad.IPad;
 
 public class RedIPad extends CustomizeDecorator {
     public RedIPad(IPad iPad) {
